@@ -20,6 +20,22 @@ packages:
   gitUsername: ArtiKhareGitlabnew
   gitBranch: master
 services:
+- serviceName: project.sergh2209.integrations:azrepoPackage
+  packages:
+  - name: Sergh2209Project
+    version: "1.0"
+  - name: AddIntsPackage
+    version: "1.0"
+  - name: substractpackage
+    version: "2.0"
+- serviceName: AddIntsPackage:addIntsFS
+  packages:
+  - name: AddIntsPackage
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
 - serviceName: project.sergh2209.integrations:gitlabfs
   packages:
   - name: Sergh2209Project
