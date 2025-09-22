@@ -12,3 +12,8 @@ packages:
   gitUrl: https://dev.azure.com/ArtiKhare/AddIntsPackage/_git
   gitUsername: ArtiKhare
   gitBranch: master
+- name: substractpackage
+  gitServerName: src_shared_GitLabCtrl_Arti
+  gitUrl: https://gitlab.com/ArtiKhareGitlabnew
+  gitUsername: ArtiKhareGitlabnew
+  gitBranch: master
